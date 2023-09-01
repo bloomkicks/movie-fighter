@@ -1,5 +1,5 @@
 .search-container {
-  max-width: 90%;
+  max-width: 48%;
 }
 
 .search-container b {
@@ -55,7 +55,11 @@ figure .image img {
   padding-top: 25px;
 }
 
-@media (max-width: 540px) {
+@media (max-width: 768px) {
+  .search-container {
+    max-width: 90%;
+  }
+
   .media {
     padding-top: 10px;
   }
